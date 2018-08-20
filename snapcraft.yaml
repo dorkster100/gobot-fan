@@ -14,4 +14,4 @@ parts:
   gobot-blink:
     source: .
     plugin: go
-    go-importpath: github.com/dorkster100/gobot-fan-dorkster100
+    go-importpath: github.com/dorkster100/gobot-fan
