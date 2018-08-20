@@ -1,0 +1,17 @@
+name: gobot-fan-dorkster100
+version: master
+summary:  First gobot project for raspberry pi 2b FAN with remote controller
+description: |
+  First gobot project for raspberry pi 2b FAN with remote controller.
+
+confinement: devmode
+
+apps:
+  gobot-blink-username:
+    command: gobot-fan
+
+parts:
+  gobot-blink:
+    source: .
+    plugin: go
+    go-importpath: github.com/dorkster100/gobot-fan-dorkster100
