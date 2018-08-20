@@ -7,7 +7,7 @@ description: |
 confinement: devmode
 
 apps:
-  gobot-blink-username:
+  gobot-fan-dorkster100:
     command: gobot-fan
 
 parts:
